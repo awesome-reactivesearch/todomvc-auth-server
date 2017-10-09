@@ -1,0 +1,40 @@
+{
+  "name": "todomvc-auth-server",
+  "version": "1.0.0",
+  "description": "Server side logic to handle CUD options on todomvc-auth-client",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "now-start": "forever index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appbaseio-apps/todomvc-auth-server.git"
+  },
+  "keywords": [
+    "todomvc",
+    "authentication",
+    "appbase",
+    "auth0"
+  ],
+  "author": "Divyanshu Maithani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appbaseio-apps/todomvc-auth-server/issues"
+  },
+  "homepage": "https://github.com/appbaseio-apps/todomvc-auth-server#readme",
+  "dependencies": {
+    "appbase-js": "^2.1.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.1",
+    "express-jwt": "^5.3.0",
+    "jwks-rsa": "^1.2.0",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "forever": "^0.15.3",
+    "nodemon": "^1.12.1"
+  }
+}
